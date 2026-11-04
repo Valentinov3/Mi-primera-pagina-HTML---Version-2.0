@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Clon educativo de MercadoLibre con HTML5 y CSS, sin JavaScript.">
+<title>Mercado Libre Colombia - Clon HTML5 + CSS</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="fila1">
+      <a class="logo" href="#" aria-label="Mercado Libre"><span>ML</span>mercado<br>libre</a>
+      <form class="buscador" action="#" role="search">
+        <input type="search" placeholder="Buscar productos, marcas y más…" aria-label="Buscar">
+        <button type="submit" aria-label="Buscar">&#128269;</button>
+      </form>
+      <p class="promo"><b>Envío gratis</b> en millones de productos</p>
+    </div>
+    <div class="fila2">
+      <div class="ubic">&#128205;<div><small>Enviar a</small>Popayán, Cauca</div></div>
+      <nav class="menu" aria-label="Principal">
+        <a href="#">Categorías &#9662;</a><a href="#">Ofertas</a><a href="#">Cupones</a>
+        <a href="#">Supermercado</a><a href="#">Moda</a><a href="#">Vender</a><a href="#">Ayuda</a>
+      </nav>
+      <nav class="usuario" aria-label="Usuario">
+        <a href="#">Crea tu cuenta</a><a href="#">Ingresa</a><a href="#">Mis compras</a><a href="#">&#128722;</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" aria-labelledby="t-hero">
+    <div>
+      <h1 id="t-hero">Ofertas imperdibles de temporada</h1>
+      <p>Hasta 40% OFF y envío gratis en tecnología, hogar y moda.</p>
+      <a class="btn" href="#ofertas">Ver ofertas</a>
+    </div>
+    <div class="emoji" aria-hidden="true">&#128241;&#128187;&#127911;</div>
+  </section>
+
+  <section class="beneficios" aria-label="Beneficios">
+    <article><i>&#128179;</i><b>Medios de pago</b><p>Tarjeta, PSE o efectivo</p></article>
+    <article><i>&#128666;</i><b>Envío gratis</b><p>Desde $60.000 en tu primera compra</p></article>
+    <article><i>&#128274;</i><b>Compra protegida</b><p>Te devolvemos tu dinero</p></article>
+    <article><i>&#127873;</i><b>Mercado Puntos</b><p>Gana puntos y beneficios</p></article>
+  </section>
+
+  <div class="cols">
+    <aside class="panel cuenta">
+      <div class="avatar">&#128100;</div>
+      <b>Ingresa a tu cuenta</b>
+      <p style="color:var(--suave)">Para ver tus compras y favoritos.</p>
+      <a class="btn azul" href="#">Ingresa a tu cuenta</a>
+      <a href="#" style="color:var(--azul)">Crea tu cuenta</a>
+    </aside>
+    <section class="panel" style="text-align:left">
+      <h2>Cupones y descuentos</h2>
+      <p style="color:var(--suave)">Aprovecha cupones exclusivos para ti.</p>
+      <div class="cupones">
+        <div class="cupon"><b>10% OFF</b>Supermercado</div>
+        <div class="cupon"><b>$20.000 OFF</b>Tecnología</div>
+        <div class="cupon"><b>15% OFF</b>Moda</div>
+      </div>
+    </section>
+  </div>
+
+  <section class="panel" id="ofertas">
+    <h2>Ofertas del día <a href="#">Ver todas</a></h2>
+    <div class="productos">
+      <article class="producto"><a href="#"><div class="foto">&#128241;</div><div class="info"><h3>Smartphone 128 GB</h3><div class="antes">$1.499.900</div><div class="precio">$1.099.900</div><div class="dto">27% OFF</div><div class="cuotas">12 cuotas sin interés</div><div class="envio">Llega gratis mañana</div></div></a></article>
+      <article class="producto"><a href="#"><div class="foto">&#128187;</div><div class="info"><h3>Portátil 15.6" 8 GB RAM</h3><div class="antes">$2.399.900</div><div class="precio">$1.849.900</div><div class="dto">23% OFF</div><div class="cuotas">6 cuotas sin interés</div><div class="envio">Envío gratis</div></div></a></article>
+      <article class="producto"><a href="#"><div class="foto">&#127911;</div><div class="info"><h3>Audífonos inalámbricos</h3><div class="antes">$189.900</div><div class="precio">$119.900</div><div class="dto">37% OFF</div><div class="cuotas">3 cuotas sin interés</div><div class="envio">Llega gratis mañana</div></div></a></article>
+      <article class="producto"><a href="#"><div class="foto">&#128250;</div><div class="info"><h3>Smart TV 50" 4K</h3><div class="antes">$1.899.900</div><div class="precio">$1.399.900</div><div class="dto">26% OFF</div><div class="cuotas">12 cuotas sin interés</div><div class="envio">Envío gratis</div></div></a></article>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Categorías populares</h2>
+    <nav class="categorias" aria-label="Categorías">
+      <a href="#"><i>&#128268;</i>Electrónica</a>
+      <a href="#"><i>&#127968;</i>Hogar y muebles</a>
+      <a href="#"><i>&#128085;</i>Ropa</a>
+      <a href="#"><i>&#9917;</i>Deportes</a>
+      <a href="#"><i>&#128663;</i>Vehículos</a>
+      <a href="#"><i>&#128722;</i>Supermercado</a>
+    </nav>
+  </section>
+
+  <section class="panel vender">
+    <h2>Empieza a vender en Mercado Libre</h2>
+    <p>Llega a millones de compradores en todo el país.</p>
+    <a class="btn azul" href="#">Vender ahora</a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="grid">
+      <div><h4>Acerca de</h4><ul><li><a href="#">Quiénes somos</a></li><li><a href="#">Trabaja con nosotros</a></li><li><a href="#">Sostenibilidad</a></li></ul></div>
+      <div><h4>Comprar</h4><ul><li><a href="#">Cómo comprar</a></li><li><a href="#">Medios de pago</a></li><li><a href="#">Mercado Puntos</a></li></ul></div>
+      <div><h4>Vender</h4><ul><li><a href="#">Cómo vender</a></li><li><a href="#">Mercado Shops</a></li><li><a href="#">Mercado Pago</a></li></ul></div>
+      <div><h4>Ayuda</h4><ul><li><a href="#">Centro de ayuda</a></li><li><a href="#">Términos y condiciones</a></li><li><a href="#">Privacidad</a></li></ul></div>
+    </div>
+    <p class="copy">&copy; 2026 Proyecto educativo. No afiliado a MercadoLibre.</p>
+  </div>
+</footer>
+
+</body>
+</html>
