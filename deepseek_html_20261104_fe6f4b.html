@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MercadoLibre Colombia - Clon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO -->
+  <header class="header">
+    <div class="header-top">
+      <a href="#" class="logo" aria-label="MercadoLibre">
+        <span class="logo-icon">🛒</span>
+        <span class="logo-text">MercadoLibre</span>
+      </a>
+
+      <form class="search-bar" role="search">
+        <input type="text" placeholder="Buscar productos, marcas y más…" aria-label="Buscar">
+        <button type="submit" aria-label="Buscar">🔍</button>
+      </form>
+
+      <div class="location">
+        <span class="location-icon">📍</span>
+        <div class="location-text">
+          <small>Enviar a</small>
+          <strong>Bogotá D.C.</strong>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-bar" aria-label="Navegación principal">
+      <ul class="nav-left">
+        <li><a href="#">Categorías</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Historial</a></li>
+        <li><a href="#">Vender</a></li>
+        <li><a href="#">Ayuda</a></li>
+      </ul>
+      <ul class="nav-right">
+        <li><a href="#">Crea tu cuenta</a></li>
+        <li><a href="#">Ingresa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- BANNER PRINCIPAL -->
+  <main>
+    <section class="banner" aria-label="Banner promocional">
+      <div class="banner-content">
+        <h1>¡Hasta 50% OFF en miles de productos!</h1>
+        <p>Envío gratis en compras seleccionadas. Aprovecha hoy.</p>
+        <a href="#" class="banner-btn">Ver ofertas</a>
+      </div>
+      <div class="banner-emoji" aria-hidden="true">🎉</div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="benefits" aria-label="Beneficios">
+      <article class="benefit-card">
+        <span class="benefit-icon">🚚</span>
+        <div>
+          <h3>Envío gratis</h3>
+          <p>En miles de productos</p>
+        </div>
+      </article>
+      <article class="benefit-card">
+        <span class="benefit-icon">🛡️</span>
+        <div>
+          <h3>Compra protegida</h3>
+          <p>Recibe tu producto o te devolvemos tu dinero</p>
+        </div>
+      </article>
+      <article class="benefit-card">
+        <span class="benefit-icon">🔄</span>
+        <div>
+          <h3>Devolución gratis</h3>
+          <p>Tienes 30 días para devolverlo</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- OFERTAS DEL DÍA -->
+    <section class="offers" aria-labelledby="offers-title">
+      <div class="section-header">
+        <h2 id="offers-title">Ofertas del día</h2>
+        <a href="#" class="see-all">Ver todas →</a>
+      </div>
+
+      <div class="offers-grid">
+        <article class="product-card">
+          <div class="product-img" aria-hidden="true">📱</div>
+          <h3 class="product-name">Smartphone 128GB</h3>
+          <p class="product-old-price">$1.299.900</p>
+          <p class="product-price">$899.900</p>
+          <span class="product-discount">-30%</span>
+          <p class="product-shipping">🚚 Envío gratis</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img" aria-hidden="true">🎧</div>
+          <h3 class="product-name">Audífonos Bluetooth</h3>
+          <p class="product-old-price">$249.900</p>
+          <p class="product-price">$149.900</p>
+          <span class="product-discount">-40%</span>
+          <p class="product-shipping">🚚 Envío gratis</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img" aria-hidden="true">💻</div>
+          <h3 class="product-name">Portátil 15" Core i5</h3>
+          <p class="product-old-price">$2.999.900</p>
+          <p class="product-price">$2.399.900</p>
+          <span class="product-discount">-20%</span>
+          <p class="product-shipping">🚚 Envío gratis</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img" aria-hidden="true">👟</div>
+          <h3 class="product-name">Tenis deportivos</h3>
+          <p class="product-old-price">$299.900</p>
+          <p class="product-price">$179.900</p>
+          <span class="product-discount">-40%</span>
+          <p class="product-shipping">🚚 Envío gratis</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img" aria-hidden="true">⌚</div>
+          <h3 class="product-name">Smartwatch deportivo</h3>
+          <p class="product-old-price">$399.900</p>
+          <p class="product-price">$259.900</p>
+          <span class="product-discount">-35%</span>
+          <p class="product-shipping">🚚 Envío gratis</p>
+        </article>
+
+        <article class="product-card">
+          <div class="product-img" aria-hidden="true">🎮</div>
+          <h3 class="product-name">Consola de videojuegos</h3>
+          <p class="product-old-price">$1.899.900</p>
+          <p class="product-price">$1.499.900</p>
+          <span class="product-discount">-21%</span>
+          <p class="product-shipping">🚚 Envío gratis</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CATEGORÍAS POPULARES -->
+    <section class="categories" aria-labelledby="categories-title">
+      <div class="section-header">
+        <h2 id="categories-title">Categorías populares</h2>
+      </div>
+
+      <div class="categories-grid">
+        <a href="#" class="category-card"><span>📱</span><p>Celulares</p></a>
+        <a href="#" class="category-card"><span>💻</span><p>Computación</p></a>
+        <a href="#" class="category-card"><span>👕</span><p>Moda</p></a>
+        <a href="#" class="category-card"><span>🏠</span><p>Hogar</p></a>
+        <a href="#" class="category-card"><span>⚽</span><p>Deportes</p></a>
+        <a href="#" class="category-card"><span>🧸</span><p>Juguetes</p></a>
+        <a href="#" class="category-card"><span>🚗</span><p>Autos</p></a>
+        <a href="#" class="category-card"><span>📚</span><p>Libros</p></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h4>Acerca de</h4>
+        <ul>
+          <li><a href="#">MercadoLibre</a></li>
+          <li><a href="#">Trabaja con nosotros</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="#">Compras</a></li>
+          <li><a href="#">Ventas</a></li>
+          <li><a href="#">Seguridad</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Síguenos</h4>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">X / Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 MercadoLibre Colombia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
