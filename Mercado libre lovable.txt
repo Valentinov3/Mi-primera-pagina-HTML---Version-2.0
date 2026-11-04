@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercado Libre Colombia - Envíos Gratis en el día</title>
+<meta name="description" content="Clon en HTML5 y CSS de la página inicial de Mercado Libre Colombia.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-top">
+    <a href="#" class="logo" aria-label="Mercado Libre Colombia">
+      <span class="logo-icon">🤝</span>
+      <span class="logo-text">mercado<br>libre</span>
+    </a>
+    <form class="search" action="#" role="search">
+      <input type="search" placeholder="Buscar productos, marcas y más..." aria-label="Buscar">
+      <button type="submit" aria-label="Buscar">🔍</button>
+    </form>
+    <a href="#" class="promo-top">Envío gratis en tu primera compra <strong>¡Aprovecha!</strong></a>
+  </div>
+  <div class="container header-bottom">
+    <a href="#" class="location">📍 <span>Enviar a<br><strong>Bogotá D.C.</strong></span></a>
+    <nav class="nav">
+      <details class="dropdown">
+        <summary>Categorías ▾</summary>
+        <ul>
+          <li><a href="#">Vehículos</a></li>
+          <li><a href="#">Inmuebles</a></li>
+          <li><a href="#">Tecnología</a></li>
+          <li><a href="#">Hogar y Muebles</a></li>
+          <li><a href="#">Electrodomésticos</a></li>
+          <li><a href="#">Deportes</a></li>
+        </ul>
+      </details>
+      <a href="#">Ofertas</a>
+      <a href="#">Historial</a>
+      <a href="#">Supermercado</a>
+      <a href="#">Moda</a>
+      <a href="#">Vender</a>
+      <a href="#">Ayuda / PQR</a>
+    </nav>
+    <div class="account">
+      <a href="#">Crea tu cuenta</a>
+      <a href="#">Ingresa</a>
+      <a href="#">Mis compras</a>
+      <a href="#" aria-label="Carrito">🛒</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- Banner: carrusel solo con CSS (radio buttons) -->
+  <section class="banner" aria-label="Promociones">
+    <input type="radio" name="slide" id="s1" checked>
+    <input type="radio" name="slide" id="s2">
+    <input type="radio" name="slide" id="s3">
+    <div class="slides">
+      <div class="slide slide-1">
+        <div class="slide-text"><small>SEMANA TECH</small><h2>Hasta 40% OFF</h2><p>en celulares y portátiles</p><span class="btn">Ver más</span></div>
+        <div class="slide-art">📱💻</div>
+      </div>
+      <div class="slide slide-2">
+        <div class="slide-text"><small>HOGAR</small><h2>Renueva tu casa</h2><p>Hasta 12 cuotas sin interés</p><span class="btn">Comprar</span></div>
+        <div class="slide-art">🛋️🪴</div>
+      </div>
+      <div class="slide slide-3">
+        <div class="slide-text"><small>SUPERMERCADO</small><h2>Envío gratis</h2><p>en compras desde $60.000</p><span class="btn">Descubrir</span></div>
+        <div class="slide-art">🛒🥑</div>
+      </div>
+    </div>
+    <div class="dots">
+      <label for="s1"></label><label for="s2"></label><label for="s3"></label>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="benefits">
+      <a href="#" class="benefit"><span>💳</span><div><strong>Hasta 12 cuotas sin interés</strong><small>Ver condiciones</small></div></a>
+      <a href="#" class="benefit"><span>🚚</span><div><strong>Envío gratis</strong><small>En millones de productos</small></div></a>
+      <a href="#" class="benefit"><span>🔒</span><div><strong>Compra protegida</strong><small>Te devolvemos el dinero</small></div></a>
+      <a href="#" class="benefit"><span>🏷️</span><div><strong>Más ofertas</strong><small>Ver todas</small></div></a>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Ofertas del día</h2>
+        <a href="#">Ver todas</a>
+      </div>
+      <div class="grid products">
+        <article class="card"><div class="thumb">📱</div><div class="info"><s>$1.899.900</s><p class="price">$1.329.900 <em>30% OFF</em></p><p class="fees">Mismo precio en 12 cuotas de $110.825</p><p class="ship">Envío gratis <b>⚡FULL</b></p><h3>Celular Samsung Galaxy A55 256GB</h3></div></article>
+        <article class="card"><div class="thumb">💻</div><div class="info"><s>$3.499.000</s><p class="price">$2.449.000 <em>30% OFF</em></p><p class="fees">Mismo precio en 12 cuotas de $204.083</p><p class="ship">Envío gratis</p><h3>Portátil Lenovo IdeaPad 15" Ryzen 7</h3></div></article>
+        <article class="card"><div class="thumb">🎧</div><div class="info"><s>$399.900</s><p class="price">$219.900 <em>45% OFF</em></p><p class="fees">Mismo precio en 6 cuotas de $36.650</p><p class="ship">Envío gratis <b>⚡FULL</b></p><h3>Audífonos Inalámbricos Sony WH-CH720N</h3></div></article>
+        <article class="card"><div class="thumb">📺</div><div class="info"><s>$2.199.900</s><p class="price">$1.539.900 <em>30% OFF</em></p><p class="fees">Mismo precio en 12 cuotas de $128.325</p><p class="ship">Envío gratis</p><h3>Televisor LG 55" 4K UHD Smart TV</h3></div></article>
+        <article class="card"><div class="thumb">☕</div><div class="info"><s>$549.900</s><p class="price">$384.900 <em>30% OFF</em></p><p class="fees">Mismo precio en 6 cuotas de $64.150</p><p class="ship">Envío gratis <b>⚡FULL</b></p><h3>Cafetera Espresso Oster Prima Latte</h3></div></article>
+        <article class="card"><div class="thumb">👟</div><div class="info"><s>$459.900</s><p class="price">$275.940 <em>40% OFF</em></p><p class="fees">Mismo precio en 3 cuotas de $91.980</p><p class="ship">Envío gratis</p><h3>Tenis Running Adidas Galaxy 7</h3></div></article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Categorías</h2><a href="#">Mostrar todas las categorías</a></div>
+      <div class="grid categories">
+        <a href="#" class="cat"><span>🚗</span>Carros, Motos y Otros</a>
+        <a href="#" class="cat"><span>🏠</span>Inmuebles</a>
+        <a href="#" class="cat"><span>📱</span>Celulares y Teléfonos</a>
+        <a href="#" class="cat"><span>💻</span>Computación</a>
+        <a href="#" class="cat"><span>🧺</span>Electrodomésticos</a>
+        <a href="#" class="cat"><span>🛋️</span>Hogar y Muebles</a>
+        <a href="#" class="cat"><span>👕</span>Ropa y Accesorios</a>
+        <a href="#" class="cat"><span>⚽</span>Deportes y Fitness</a>
+        <a href="#" class="cat"><span>💄</span>Belleza y Cuidado</a>
+        <a href="#" class="cat"><span>🧸</span>Juegos y Juguetes</a>
+        <a href="#" class="cat"><span>🔧</span>Herramientas</a>
+        <a href="#" class="cat"><span>🎮</span>Consolas y Videojuegos</a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <details class="more-info">
+    <summary>Más información ▾</summary>
+    <div class="container footer-cols">
+      <div><h4>Acerca de</h4><a href="#">Mercado Libre</a><a href="#">Investor relations</a><a href="#">Tendencias</a></div>
+      <div><h4>Otros sitios</h4><a href="#">Developers</a><a href="#">Mercado Pago</a><a href="#">Mercado Shops</a></div>
+      <div><h4>Ayuda</h4><a href="#">Comprar</a><a href="#">Vender</a><a href="#">Resolución de problemas</a></div>
+      <div><h4>Redes sociales</h4><a href="#">X</a><a href="#">Facebook</a><a href="#">Instagram</a></div>
+    </div>
+  </details>
+  <div class="container footer-bottom">
+    <nav><a href="#">Trabaja con nosotros</a><a href="#">Términos y condiciones</a><a href="#">Cómo cuidamos tu privacidad</a><a href="#">Accesibilidad</a><a href="#">Ayuda / PQR</a><a href="#">Programa de Afiliados</a></nav>
+    <p>Copyright © 1999-2026 MercadoLibre Colombia LTDA. — Clon con fines educativos.</p>
+  </div>
+</footer>
+
+</body>
+</html>
